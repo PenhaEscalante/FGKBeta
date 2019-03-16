@@ -28,9 +28,9 @@
                     <table id="example" class="mdl-data-table" style="width:100%">
                         <thead>
                             <tr>
-                                <th style="width: 75px">N°</th>
-                                <th style="width: 450px">Departamento</th>
-                                <th style="width: 170px"></th>
+                                <th style="width: 10%;">N°</th>
+                                <th style="width: 70%;">Departamento</th>
+                                <th style="width: 20%;"></th>
                             </tr>
                         </thead>
                         <tbody>
@@ -54,9 +54,10 @@
                 <div class="modal-content">
                     <h5>Agregar Departamento</h5>
                     <div class="row">
-                        <form class="col s12" role="form" action="Departamentos.php" method="post">
+                        <form class="col s12" role="form" action="departamento.php" method="post">
                             <div class="row">
                                 <div class="input-field col s12">
+                                    <i class="material-icons prefix">mode_edit</i>
                                     <input id="lblDepartamento" type="text" class="validate" name="txtDepartamento">
                                     <label for="lblDepartamento">Departamento</label>
                                 </div>
@@ -69,10 +70,8 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </main>
-
 </body>
 
 </html>

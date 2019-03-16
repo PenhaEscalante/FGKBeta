@@ -17,16 +17,30 @@
                     <ul>
                         <li><a href="departamento.php" class="waves-effect">Departamentos</a></li>
                         <li><a href="municipio.php" class="waves-effect">Municipios</a></li>
+                        <li><a href="class.php" class="waves-effect">Classs</a></li>
+                        <li><a href="seccion.php" class="waves-effect">Seccion</a></li>
                         <li><a href="#!" class="waves-effect">Centros Escolares</a></li>
-                        <li><a href="#!" class="waves-effect">Personal</a></li>
-                        <li><a href="#!" class="waves-effect">Secciones</a></li>
                         <li><a href="#!" class="waves-effect">Año en curso</a></li>
                     </ul>
                 </div>
             </li>
         </ul>
     </li>
+    <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+            <li>
+                <a class="collapsible-header waves-effect principal-item">Personal<i
+                        class="material-icons">assignment_ind</i></a>
+                <div class="collapsible-body">
+                    <ul>
+                        <li><a href="departamento.php" class="waves-effect">Cargos</a></li>
+                        <li><a href="municipio.php" class="waves-effect">Empleados</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </li>
     <li><a href="#!" class="collapsible-header waves-effect principal-item">Alumnos<i
-                class="material-icons">assignment_ind</i></a></li>
+                class="material-icons">school</i></a></li>
 </ul>
 <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
