@@ -1,0 +1,49 @@
+body{
+    background-image: url("../img/background-greywhite.jpg");
+
+}
+#logo{
+    width: 200px;
+    margin: 0px auto;
+}
+
+.user-view.encabezado-aside{
+    background-color: rgb(241, 241, 241);
+    margin-bottom: 0px;
+}
+
+.collapsible-header.waves-effect.principal-item:hover{
+    background-color: rgba(212, 18, 18, 0.911);
+    color: white;
+}
+
+
+h4{
+    background-color: #e63d3b;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+h5{
+    background-color: #e63d3b;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+#dataTable{
+    padding-top: 10px;
+}
+
+main{
+    padding-left: 250px;
+}
+
+@media only screen and (max-width : 975px) {
+    main{
+        padding-left: 0;
+    }
+}
