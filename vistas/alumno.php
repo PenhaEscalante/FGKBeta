@@ -54,7 +54,7 @@
                                                         </p>
                                                     </div>
                                                     <div class="input-field col s8">
-                                                    <i class="material-icons prefix">child_friendly</i>
+                                                    <i class="material-icons prefix">date_range</i>
                                                         <input id="a_datepicker" type="text" class="datepicker">
                                                         <label for="a_datepicker">Fecha de Nacimiento</label>
                                                     </div>
