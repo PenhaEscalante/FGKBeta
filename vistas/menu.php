@@ -19,7 +19,7 @@
                         <li><a href="municipio.php" class="waves-effect">Municipios</a></li>
                         <li><a href="class.php" class="waves-effect">Classs</a></li>
                         <li><a href="seccion.php" class="waves-effect">Seccion</a></li>
-                        <li><a href="#!" class="waves-effect">Centros Escolares</a></li>
+                        <li><a href="school.php" class="waves-effect">Centros Educativos</a></li>
                         <li><a href="#!" class="waves-effect">Año en curso</a></li>
                     </ul>
                 </div>
@@ -33,7 +33,7 @@
                         class="material-icons">assignment_ind</i></a>
                 <div class="collapsible-body">
                     <ul>
-                        <li><a href="departamento.php" class="waves-effect">Cargos</a></li>
+                        <li><a href="cargo.php" class="waves-effect">Cargos</a></li>
                         <li><a href="municipio.php" class="waves-effect">Empleados</a></li>
                     </ul>
                 </div>

@@ -38,9 +38,11 @@
                                 <td> </td>
                                 <td> </td>
                                 <td>
-                                    <a class="waves-effect waves-light btn-small blue-grey lighten-2">
+                                    <a class="waves-effect waves-light btn-small blue-grey lighten-2 modal-trigger"
+                                        href="edits/editDepartameto.php?id=1" data-target="EditDepartamento">
                                         <i class="material-icons">edit</i></a>
-                                    <a class="waves-effect waves-light btn-small red">
+                                    
+                                        <a class="waves-effect waves-light btn-small red">
                                         <i class="material-icons">delete</i></a>
                                 </td>
                             </tr>
@@ -70,6 +72,9 @@
                     </div>
                 </div>
             </div>
+
+            <?php require 'edits/editDepartameto.php'; ?>
+
         </div>
     </main>
 </body>
