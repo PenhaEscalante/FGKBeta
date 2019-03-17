@@ -40,7 +40,20 @@
             </li>
         </ul>
     </li>
-    <li><a href="#!" class="collapsible-header waves-effect principal-item">Alumnos<i
-                class="material-icons">school</i></a></li>
+
+    <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+            <li>
+                <a class="collapsible-header waves-effect principal-item">Alumnos<i
+                        class="material-icons">school</i></a>
+                <div class="collapsible-body">
+                    <ul>
+                        <li><a href="alumno.php" class="waves-effect">Nuevo Alumno</a></li>
+                        <li><a href="detalle_alumno.php" class="waves-effect">Detalle de Alumno</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </li>
 </ul>
 <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>

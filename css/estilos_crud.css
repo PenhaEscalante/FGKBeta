@@ -1,3 +1,7 @@
+body{
+    background-image: url("../img/background-greywhite.jpg");
+
+}
 #logo{
     width: 200px;
     margin: 0px auto;
@@ -35,7 +39,7 @@ h5{
 }
 
 main{
-    padding-left: 300px;
+    padding-left: 250px;
 }
 
 @media only screen and (max-width : 975px) {
