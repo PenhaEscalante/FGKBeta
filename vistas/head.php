@@ -13,7 +13,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <!--Import Google Icon Font-->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+<link rel="shortcut icon" type="image/x-icon" href="../img/oportunidades_ico.ico" />
 <script src="../js/arranque.js"></script>
 <link rel="stylesheet" href="../css/estilos_crud.css">
 

@@ -11,13 +11,13 @@
     <?php require 'menu.php'; ?>
 
     <main>
-        <div class="container" style="width: 90%;">
+        <div class="container">
             <!--encabezado-->
             <header>
                 <h4>Nuevo Alumno</h4>
             </header>
             <!--Tabla agregar alumno-->
-            <div id="dataTable" class="responsive-table" style="width: 100%;">
+            <div id="dataTable" class="responsive-table">
                 <div class="card-panel" style="border-radius: 7px;">
                     <div class="row">
                         <form class="col s12">
