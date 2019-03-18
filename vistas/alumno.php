@@ -11,13 +11,13 @@
     <?php require 'menu.php'; ?>
 
     <main>
-        <div class="container" style="width: 90%;">
+        <div class="container">
             <!--encabezado-->
             <header>
                 <h4>Nuevo Alumno</h4>
             </header>
             <!--Tabla agregar alumno-->
-            <div id="dataTable" class="responsive-table" style="width: 100%;">
+            <div id="dataTable" class="responsive-table">
                 <div class="card-panel" style="border-radius: 7px;">
                     <div class="row">
                         <form class="col s12">
@@ -54,7 +54,7 @@
                                                         </p>
                                                     </div>
                                                     <div class="input-field col s8">
-                                                    <i class="material-icons prefix">child_friendly</i>
+                                                    <i class="material-icons prefix">date_range</i>
                                                         <input id="a_datepicker" type="text" class="datepicker">
                                                         <label for="a_datepicker">Fecha de Nacimiento</label>
                                                     </div>

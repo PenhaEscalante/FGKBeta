@@ -55,5 +55,18 @@
             </li>
         </ul>
     </li>
+    <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+            <li>
+                <a class="collapsible-header waves-effect principal-item">Materias<i
+                        class="material-icons">library_books</i></a>
+                <div class="collapsible-body">
+                    <ul>
+                        <li><a href="detalle_materia.php" class="waves-effect">Detalle Materias</a></li>                        
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </li>
 </ul>
 <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
