@@ -34,7 +34,7 @@
                 <div class="collapsible-body">
                     <ul>
                         <li><a href="cargo.php" class="waves-effect">Cargos</a></li>
-                        <li><a href="municipio.php" class="waves-effect">Empleados</a></li>
+                        <li><a href="empleado.php" class="waves-effect">Empleados</a></li>
                     </ul>
                 </div>
             </li>

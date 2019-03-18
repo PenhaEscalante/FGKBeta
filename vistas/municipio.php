@@ -51,36 +51,35 @@
             </div>
 
             <!--Modal Agregar-->
-            <div id="AddMunicipio" class="modal">
-                <div class="modal-content">
-                    <h4>Agregar Municipio</h4>
-                    <div class="row">
-                        <form class="col s12" role="form" action="municipio.php" method="post">
-                            <div class="row">
-                                <div class="input-field col s7">
-                                    <i class="material-icons prefix">mode_edit</i>
-                                    <input id="lblMunicipio" type="text" class="validate" name="txtMunicipio">
-                                    <label for="lblMunicipio">Municipio</label>
-                                </div>
-                                <div class="input-field col s5">
-                                    <select>
-                                        <option value="" disabled selected>Seleccione Departamento</option>
-                                        <option value="1">Ahuachapan</option>
-                                        <option value="2">Santa Ana</option>
-                                        <option value="3">Sonsonate</option>
-                                    </select>
-                                    <label>Departamento</label>
-
-                                </div>
-                                <button class="btn waves-effect waves-light blue-grey  lighten-2" type="submit"
-                                    name="bntAgregarMunicipio">Guardar
-                                    <i class="material-icons right">send</i>
-                                </button>
+            <form class="col s12" role="form" action="municipio.php" method="post">
+                <div id="AddMunicipio" class="modal modal-fixed-footer" style="height: 50%;">
+                    <div class="modal-content">
+                        <h4>Agregar Municipio</h4>
+                        <div class="row">
+                            <div class="input-field col s7">
+                                <i class="material-icons prefix">mode_edit</i>
+                                <input id="lblMunicipio" type="text" class="validate" name="txtMunicipio">
+                                <label for="lblMunicipio">Municipio</label>
                             </div>
-                        </form>
+                            <div class="input-field col s5">
+                                <select>
+                                    <option value="" disabled selected>Seleccione Departamento</option>
+                                    <option value="1">Ahuachapan</option>
+                                    <option value="2">Santa Ana</option>
+                                    <option value="3">Sonsonate</option>
+                                </select>
+                                <label>Departamento</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn waves-effect waves-light blue-grey lighten-2" type="submit"
+                            name="btnGuardar">Guardar
+                            <i class="material-icons right">send</i>
+                        </button>
                     </div>
                 </div>
-            </div>
+            </form>
 
         </div>
     </main>

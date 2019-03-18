@@ -41,8 +41,8 @@
                                     <a class="waves-effect waves-light btn-small blue-grey lighten-2 modal-trigger"
                                         href="edits/editDepartameto.php?id=1" data-target="EditDepartamento">
                                         <i class="material-icons">edit</i></a>
-                                    
-                                        <a class="waves-effect waves-light btn-small red">
+
+                                    <a class="waves-effect waves-light btn-small red">
                                         <i class="material-icons">delete</i></a>
                                 </td>
                             </tr>
@@ -52,26 +52,26 @@
             </div>
 
             <!--Modal Agregar-->
-            <div id="AddDepartamento" class="modal">
-                <div class="modal-content">
-                    <h5>Agregar Departamento</h5>
-                    <div class="row">
-                        <form class="col s12" role="form" action="departamento.php" method="post">
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <i class="material-icons prefix">mode_edit</i>
-                                    <input id="lblDepartamento" type="text" class="validate" name="txtDepartamento">
-                                    <label for="lblDepartamento">Departamento</label>
-                                </div>
-                                <button class="btn waves-effect waves-light blue-grey  lighten-2" type="submit"
-                                    name="bntAgregarDepartamento">Guardar
-                                    <i class="material-icons right">send</i>
-                                </button>
+            <form class="col s12" role="form" action="departamento.php" method="post">
+                <div id="AddDepartamento" class="modal modal-fixed-footer" style="height: 50%;">
+                    <div class="modal-content">
+                        <h5>Agregar Departamento</h5>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">mode_edit</i>
+                                <input id="lblDepartamento" type="text" class="validate" name="txtDepartamento">
+                                <label for="lblDepartamento">Departamento</label>
                             </div>
-                        </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn waves-effect waves-light blue-grey lighten-2" type="submit"
+                            name="btnGuardar">Guardar
+                            <i class="material-icons right">send</i>
+                        </button>
                     </div>
                 </div>
-            </div>
+            </form>
 
             <?php require 'edits/editDepartameto.php'; ?>
 

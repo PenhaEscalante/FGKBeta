@@ -12,7 +12,7 @@
     <?php require 'menu.php'; ?>
 
     <main>
-        <div class="container" style="width: 95%;">
+        <div class="container" style="width: 85%;">
 
             <!--encabezado-->
             <header>
