@@ -23,7 +23,8 @@
                         <form class="col s12">
                             <div class="row">
                                 <div class="card-image col s3">
-                                    <img class="responsive-img" src="../img/user_round.png" style=" border-style: groove;">
+                                    <img class="responsive-img" src="../img/user_round.png"
+                                        style=" border-style: groove;">
                                 </div>
                                 <div class="col s8">
                                     <div class="row">
@@ -54,7 +55,7 @@
                                                         </p>
                                                     </div>
                                                     <div class="input-field col s8">
-                                                    <i class="material-icons prefix">date_range</i>
+                                                        <i class="material-icons prefix">date_range</i>
                                                         <input id="a_datepicker" type="text" class="datepicker">
                                                         <label for="a_datepicker">Fecha de Nacimiento</label>
                                                     </div>
@@ -66,13 +67,13 @@
 
                                 <div class="row">
                                     <div class="input-field col s8">
-                                    <i class="material-icons prefix">home</i>
+                                        <i class="material-icons prefix">home</i>
                                         <input id="direction" type="text" class="validate">
                                         <label for="direction">Direccion</label>
                                     </div>
 
                                     <div class="input-field col s4">
-                                    <i class="material-icons prefix">place</i>
+                                        <i class="material-icons prefix">place</i>
                                         <select>
                                             <option value="" disabled selected>El&iacute;ge un Municipio</option>
                                             <option value="1">Santa Ana</option>
@@ -80,14 +81,6 @@
                                             <option value="3">Chalchuapa</option>
                                             <option value="4">Coatepeque</option>
                                             <option value="5">El Congo</option>
-                                            <option value="6">El Porvenir</option>
-                                            <option value="7">Masahuat</option>
-                                            <option value="8">Metap&aacute;n</option>
-                                            <option value="9">San Antonio Pajonal</option>
-                                            <option value="10">San Sebasti&aacute;n Salitrillo</option>
-                                            <option value="11">Santa Rosa Guachipil&iacute;n</option>
-                                            <option value="12">Santiago de la Frontera</option>
-                                            <option value="13">Texistepeque</option>
                                         </select>
                                         <label>Municipio</label>
                                     </div>
@@ -95,17 +88,17 @@
 
                                 <div class="row">
                                     <div class="input-field col s3">
-                                    <i class="material-icons prefix">email</i>
+                                        <i class="material-icons prefix">email</i>
                                         <input id="email" type="email" class="validate">
                                         <label for="email">Email</label>
                                     </div>
                                     <div class="input-field col s3">
-                                    <i class="material-icons prefix">local_phone</i>
+                                        <i class="material-icons prefix">local_phone</i>
                                         <input id="phone" type="text" class="validate">
                                         <label for="phone">Numero de Telefono</label>
                                     </div>
                                     <div class="input-field col s4">
-                                    <i class="material-icons prefix">school</i>
+                                        <i class="material-icons prefix">school</i>
                                         <select>
                                             <option value="" disabled selected>El&iacute;ge un Centro Escolar</option>
                                             <option value="1">Centro Escolar INSA</option>
@@ -117,32 +110,16 @@
                                         <label>Centro Escolar</label>
 
                                     </div>
+
+                                    <!-- Agregar Centro Escolar -->
                                     <div class="input-field col s2">
-                                        <a class="waves-effect waves-light btn modal-trigger" href="#modal2">
+                                        <a class="waves-effect waves-light btn modal-trigger" href="new/addSchool.php"
+                                            data-target="AddSchool">
                                             <i class="material-icons">add_circle</i></a>
 
-                                        <div id="modal2" class="modal">
-                                            <div class="modal-content">
-                                                <h4>Nuevo Centro Escolar</h4>
-                                                <div class="row">
-                                                    <form class="col s12" role="form" action="alumno.php" method="post">
-                                                        <div class="row">
-                                                            <div class="input-field col s12">
-                                                            <i class="material-icons prefix">school</i>
-                                                                <input id="lblcentro_educativo" type="text" class="validate" name="txtcentro">
-                                                                <label for="lblcentro_educativo">Centro Educativo</label>
-                                                            </div>
-                                                            <div class="input-field col s12">
-                                                            <button class="btn waves-effect waves-light blue-grey  lighten-2" type="submit" name="bntAgregarCentro">Guardar
-                                                                <i class="material-icons right">send</i>
-                                                            </button>
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <?php require 'new/addSchool.php'; ?>
                                     </div>
+
                                 </div>
                         </form>
                     </div>
@@ -175,38 +152,38 @@
                                                     <form class="col s12">
                                                         <div class="row">
                                                             <div class="col s2">
-                                                            <i class="material-icons prefix">account_box</i>
+                                                                <i class="material-icons prefix">account_box</i>
                                                                 <input id="DUI" type="text" class="validate">
                                                                 <label for="DUI">DUI</label>
 
                                                             </div>
                                                             <div class="col s5">
-                                                            <i class="material-icons prefix">person</i>
+                                                                <i class="material-icons prefix">person</i>
                                                                 <input id="first_name_r" type="text" class="validate">
                                                                 <label for="first_name_r">Nombres</label>
                                                             </div>
 
                                                             <div class="col s5">
-                                                            <i class="material-icons prefix">person</i>
+                                                                <i class="material-icons prefix">person</i>
                                                                 <input id="last_name_r" type="text" class="validate">
                                                                 <label for="last_name_r">Apellidos</label>
                                                             </div>
                                                         </div>
                                                         <div class="row">
                                                             <div class="col s2">
-                                                            <i class="material-icons prefix">local_phone</i>
+                                                                <i class="material-icons prefix">local_phone</i>
                                                                 <input id="phone_r" type="text" class="validate">
                                                                 <label for="phone_r">Telefono</label>
                                                             </div>
                                                             <div class="col s7">
-                                                            <i class="material-icons prefix">home</i>
+                                                                <i class="material-icons prefix">home</i>
                                                                 <input id="direction_r" type="text" class="validate">
                                                                 <label for="diretion_r">Direccion</label>
                                                             </div>
                                                         </div>
                                                         <div class="row">
                                                             <div class="col s4">
-                                                            <i class="material-icons prefix">accessibility</i>
+                                                                <i class="material-icons prefix">accessibility</i>
                                                                 <select id="tipo_r">
                                                                     <option value="" disabled selected>Tipo</option>
                                                                     <option value="1">Familiar</option>
@@ -215,7 +192,7 @@
                                                                 </select>
                                                             </div>
                                                             <div class="col s4">
-                                                            <i class="material-icons prefix">build</i>
+                                                                <i class="material-icons prefix">build</i>
                                                                 <select id="tipo_r">
                                                                     <option value="" disabled selected>Ocupacion
                                                                     </option>
@@ -231,19 +208,28 @@
                                                             <div class="col s7">
                                                                 <ul class="collapsible">
                                                                     <li>
-                                                                        <div class="collapsible-header"><i class="large material-icons">add_box</i>Nueva Ocupacion
+                                                                        <div class="collapsible-header"><i
+                                                                                class="large material-icons">add_box</i>Nueva
+                                                                            Ocupacion
                                                                         </div>
                                                                         <div class="collapsible-body">
                                                                             <div class="row">
                                                                                 <form class="col s12">
                                                                                     <div class="row">
                                                                                         <div class="input-field col s7">
-                                                                                            <input id="add_ocupacion" type="text" class="validate">
-                                                                                            <label for="add_ocupacion">Ocupacion</label>
+                                                                                            <input id="add_ocupacion"
+                                                                                                type="text"
+                                                                                                class="validate">
+                                                                                            <label
+                                                                                                for="add_ocupacion">Ocupacion</label>
                                                                                         </div>
                                                                                         <div class="input-field col s5">
-                                                                                            <button class="btn waves-effect waves-light" type="submit" name="action">Guardar
-                                                                                                <i class="material-icons right">send</i>
+                                                                                            <button
+                                                                                                class="btn waves-effect waves-light"
+                                                                                                type="submit"
+                                                                                                name="action">Guardar
+                                                                                                <i
+                                                                                                    class="material-icons right">send</i>
                                                                                             </button>
                                                                                         </div>
                                                                                     </div>
@@ -258,7 +244,8 @@
                                                             </div>
                                                         </div>
                                                         <div class="row">
-                                                            <a href="#!" class="modal-close waves-effect waves-light btn-small red lighten-1">Agregar</a>
+                                                            <a href="#!"
+                                                                class="modal-close waves-effect waves-light btn-small red lighten-1">Agregar</a>
                                                         </div>
                                                     </form>
                                                 </div>
@@ -312,4 +299,4 @@
 
 </body>
 
-</html> 
+</html>

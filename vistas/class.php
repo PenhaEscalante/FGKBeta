@@ -53,43 +53,44 @@
             </div>
 
             <!--Modal Agregar-->
-            <div id="AddClass" class="modal">
-                <div class="modal-content">
-                    <h4>Agregar Class</h4>
-                    <div class="row">
-                        <form class="col s12" role="form" action="class.php" method="post">
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <input name="txtClass" value="" id="lblClass" type="text" class="validate">
-                                    <label for="lblClass">Class</label>
-                                </div>
-                                <div class="input-field col s6">
-                                    <input name="txtAnhoIngreso" id="lblIngreso" type="number" min="2012" max="2100"
-                                        class="validate">
-                                    <label for="lblIngreso">Año de Ingreso</label>
-                                </div>
-                                <div class="input-field col s6">
-                                    <input name="txtAnhoEgreso" id="lblEgreso" type="number" min="2012" max="2100"
-                                        class="validate">
-                                    <label for="lblEgreso">Año de Egreso</label>
-                                </div>
-                                <div class="input-field col s12">
-                                    <textarea name="txtDescripcion" id="lblDescripcion"
-                                        class="materialize-textarea"></textarea>
-                                    <label for="lblDescripcion">Descripcion</label>
-                                </div>
-                                <div class="input-field col s12">
-                                    <button class="btn waves-effect waves-light blue-grey  lighten-2" type="submit"
-                                        name="btnAgregarClass">Guardar
-                                        <i class="material-icons right">send</i>
-                                    </button>
-                                </div>
+            <form class="col s12" role="form" action="class.php" method="post">
+                <div id="AddClass" class="modal">
+                    <div class="modal-content">
+                        <h4>Agregar Class</h4>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">mode_edit</i>
+                                <input name="txtClass" value="" id="lblClass" type="text" class="validate">
+                                <label for="lblClass">Class</label>
                             </div>
-                        </form>
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">date_range</i>
+                                <input name="txtAnhoIngreso" id="lblIngreso" type="number" min="2012" max="2100"
+                                    class="validate">
+                                <label for="lblIngreso">Año de Ingreso</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">date_range</i>
+                                <input name="txtAnhoEgreso" id="lblEgreso" type="number" min="2012" max="2100"
+                                    class="validate">
+                                <label for="lblEgreso">Año de Egreso</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">insert_comment</i>
+                                <textarea name="txtDescripcion" id="lblDescripcion"
+                                    class="materialize-textarea"></textarea>
+                                <label for="lblDescripcion">Descripcion</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn waves-effect waves-light blue-grey lighten-2" type="submit"
+                            name="btnGuardar">Guardar
+                            <i class="material-icons right">send</i>
+                        </button>
                     </div>
                 </div>
-            </div>
-
+            </form>
         </div>
     </main>
 

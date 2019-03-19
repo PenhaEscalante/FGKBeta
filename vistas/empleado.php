@@ -12,7 +12,7 @@
     <?php require 'menu.php'; ?>
 
     <main>
-        <div class="container" style="width: 85%;">
+        <div class="container" style="width: 90%;">
 
             <!--encabezado-->
             <header>
@@ -58,51 +58,55 @@
 
             <!--Modal Agregar-->
             <form class="col s12" role="form" action="empleado.php" method="post">
-                <div id="AddEmpleado" class="modal modal-fixed-footer" style="width: 95%;">
+                <div id="AddEmpleado" class="modal modal-fixed-footer" style="width: 100%;">
                     <div class="modal-content">
                         <h4>Agregar Empleado</h4>
                         <div class="row">
                             <div class="input-field col s4">
+                                <i class="material-icons prefix">account_circle</i>
                                 <input name="txtNombre" value="" id="lblNombre" type="text" class="validate">
                                 <label for="lblNombre">Nombre</label>
                             </div>
 
                             <div class="input-field col s4">
+                                <i class="material-icons prefix">account_circle</i>
                                 <input name="txtApellido" value="" id="lblApellido" type="text" class="validate">
                                 <label for="lblApellido">Apellido</label>
                             </div>
 
-                            <div class="input-field col s2">
-                                <input name="txtDate" id="lblDate" type="text" class="datepicker">
-                                <label for="lblDate">Fecha de nacimiento</label>
-                            </div>
-
-                            <div class="input-field col s2">
-                                <p>
+                            <div class="input-field col s4">
+                                <p> <label>Sexo:</label>
                                     <label>
-                                        <input name="h" type="radio" checked />
-                                        <span>Hombre</span>
+                                        <input name="group1" type="radio" />
+                                        <span>F</span>
                                     </label>
-                                </p>
-                                <p>
                                     <label>
-                                        <input name="m" type="radio" />
-                                        <span>Mujer</span>
+                                        <input name="group1" type="radio" />
+                                        <span>M</span>
                                     </label>
                                 </p>
                             </div>
 
-                            <div class="input-field col s5">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">date_range</i>
+                                <input id="a_datepicker" type="text" class="datepicker">
+                                <label for="a_datepicker">Fecha de Nacimiento</label>
+                            </div>
+
+                            <div class="input-field col s4">
+                                <i class="material-icons prefix">picture_in_picture</i>
                                 <input name="txtDUI" value="" id="lblDUI" type="text" class="validate">
                                 <label for="lblDUI">DUI</label>
                             </div>
 
-                            <div class="input-field col s5">
+                            <div class="input-field col s4">
+                                <i class="material-icons prefix">picture_in_picture</i>
                                 <input name="txtNIT" value="" id="lblNIT" type="text" class="validate">
                                 <label for="lblNIT">NIT</label>
                             </div>
 
-                            <div class="input-field col s2">
+                            <div class="input-field col s3">
+                                <i class="material-icons prefix">payment</i>
                                 <input name="txtCarnet" value="" id="lblCarnet" type="text" class="validate">
                                 <label for="lblCarnet">Carnet</label>
                             </div>

@@ -19,7 +19,7 @@
             </header>
 
             <!--Boton agregar-->
-            <a class="waves-effect waves-light btn modal-trigger blue-grey  lighten-2" href="#AddDepartamento"><i
+            <a class="waves-effect waves-light btn modal-trigger blue-grey lighten-2" href="#AddDepartamento"><i
                     class="material-icons right">add</i>Nuevo</a>
 
             <!--Tabla-->
@@ -39,7 +39,7 @@
                                 <td> </td>
                                 <td>
                                     <a class="waves-effect waves-light btn-small blue-grey lighten-2 modal-trigger"
-                                        href="edits/editDepartameto.php?id=1" data-target="EditDepartamento">
+                                        href="edits/editDepartameto.php?id=1" data-target="EditDepartamento" data-id="1">
                                         <i class="material-icons">edit</i></a>
 
                                     <a class="waves-effect waves-light btn-small red">
@@ -53,7 +53,7 @@
 
             <!--Modal Agregar-->
             <form class="col s12" role="form" action="departamento.php" method="post">
-                <div id="AddDepartamento" class="modal modal-fixed-footer" style="height: 50%;">
+                <div id="AddDepartamento" class="modal">
                     <div class="modal-content">
                         <h5>Agregar Departamento</h5>
                         <div class="row">

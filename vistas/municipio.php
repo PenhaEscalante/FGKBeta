@@ -52,7 +52,7 @@
 
             <!--Modal Agregar-->
             <form class="col s12" role="form" action="municipio.php" method="post">
-                <div id="AddMunicipio" class="modal modal-fixed-footer" style="height: 50%;">
+                <div id="AddMunicipio" class="modal">
                     <div class="modal-content">
                         <h4>Agregar Municipio</h4>
                         <div class="row">

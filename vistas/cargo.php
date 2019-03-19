@@ -50,32 +50,33 @@
             </div>
 
             <!--Modal Agregar-->
-            <div id="AddCargo" class="modal">
-                <div class="modal-content">
-                    <h5>Agregar Cargo</h5>
-                    <div class="row">
-                        <form class="col s12" role="form" action="departamento.php" method="post">
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <i class="material-icons prefix">mode_edit</i>
-                                    <input id="lblCargo" type="text" class="validate" name="txtCargo">
-                                    <label for="lblCargo">Cargo</label>
-                                </div>
-                                <div class="input-field col s12">
-                                    <i class="material-icons prefix">mode_edit</i>
-                                    <textarea name="txtDescripcion" id="lblDescripcion"
-                                        class="materialize-textarea"></textarea>
-                                    <label for="lblDescripcion">Descripcion</label>
-                                </div>
-                                <button class="btn waves-effect waves-light blue-grey lighten-2" type="submit"
-                                    name="btnCargo">Guardar
-                                    <i class="material-icons right">send</i>
-                                </button>
+            <form class="col s12" role="form" action="departamento.php" method="post">
+                <div id="AddCargo" class="modal">
+                    <div class="modal-content">
+                        <h5>Agregar Cargo</h5>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">mode_edit</i>
+                                <input id="lblCargo" type="text" class="validate" name="txtCargo">
+                                <label for="lblCargo">Cargo</label>
                             </div>
-                        </form>
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">insert_comment</i>
+                                <textarea name="txtDescripcion" id="lblDescripcion"
+                                    class="materialize-textarea"></textarea>
+                                <label for="lblDescripcion">Descripcion</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn waves-effect waves-light blue-grey lighten-2" type="submit"
+                            name="btnGuardar">Guardar
+                            <i class="material-icons right">send</i>
+                        </button>
                     </div>
                 </div>
-            </div>
+            </form>
+
         </div>
     </main>
 </body>

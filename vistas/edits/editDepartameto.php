@@ -1,7 +1,6 @@
 <?php
-if (isset($_POST['bntEditar']))
-{
-    header("location:departamento.php");
+if(isset($_GET['id'])){
+    
 }
 ?>
 

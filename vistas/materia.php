@@ -51,31 +51,31 @@
             </div>
 
             <!--Modal Agregar-->
-            <div id="AddMateria" class="modal">
-                <div class="modal-content">
-                    <h4>Agregar Materia</h4>
-                    <div class="row">
-                        <form class="col s12" role="form" action="detalle_materia.php" method="post">
-                            <div class="row">
-                                <div class="input-field col s6">
-                                    <i class="material-icons prefix">mode_edit</i>
-                                    <input id="lblCodigoMateria" type="text" class="validate" name="txtodigoMateria">
-                                    <label for="lblCodigoMateria">Codigo</label>
-                                </div>
-                                <div class="input-field col s6">
-                                    <i class="material-icons prefix">mode_edit</i>
-                                    <input id="lblMateria" type="text" class="validate" name="txtMateria">
-                                    <label for="lblMateria">Nombre de la Materia</label>                                    
-                                </div>
-                                <button class="btn waves-effect waves-light blue-grey  lighten-2" type="submit"
-                                    name="bntAgregarMunicipio">Guardar
-                                    <i class="material-icons right">send</i>
-                                </button>
+            <form class="col s12" role="form" action="materia.php" method="post">
+                <div id="AddMateria" class="modal">
+                    <div class="modal-content">
+                        <h4>Agregar Materia</h4>
+                        <div class="row">
+                            <div class="input-field col s4">
+                                <i class="material-icons prefix">mode_edit</i>
+                                <input id="lblCodigoMateria" type="text" class="validate" name="txtodigoMateria">
+                                <label for="lblCodigoMateria">Codigo</label>
                             </div>
-                        </form>
+                            <div class="input-field col s8">
+                                <i class="material-icons prefix">book</i>
+                                <input id="lblMateria" type="text" class="validate" name="txtMateria">
+                                <label for="lblMateria">Nombre de la Materia</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn waves-effect waves-light blue-grey lighten-2" type="submit"
+                            name="btnGuardar">Guardar
+                            <i class="material-icons right">send</i>
+                        </button>
                     </div>
                 </div>
-            </div>
+            </form>
 
         </div>
     </main>
