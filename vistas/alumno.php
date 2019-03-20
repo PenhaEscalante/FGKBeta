@@ -22,105 +22,99 @@
                     <div class="row">
                         <form class="col s12">
                             <div class="row">
+
                                 <div class="card-image col s3">
                                     <img class="responsive-img" src="../img/user_round.png"
                                         style=" border-style: groove;">
                                 </div>
-                                <div class="col s8">
-                                    <div class="row">
-                                        <div class="col s12">
-                                            <div class="input-field col s6">
-                                                <i class="material-icons prefix">account_circle</i>
-                                                <input id="first_name" type="text" class="validate">
-                                                <label for="first_name">Nombres</label>
-                                            </div>
 
-                                            <div class="input-field col s6">
-                                                <i class="material-icons prefix">account_circle</i>
-                                                <input id="last_name" type="text" class="validate">
-                                                <label for="last_name">Apellidos</label>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col s12">
-                                                    <div class="input-field col s4">
-                                                        <p> <label>Sexo</label>
-                                                            <label>
-                                                                <input name="group1" type="radio" />
-                                                                <span>F</span>
-                                                            </label>
-                                                            <label>
-                                                                <input name="group1" type="radio" />
-                                                                <span>M</span>
-                                                            </label>
-                                                        </p>
-                                                    </div>
-                                                    <div class="input-field col s8">
-                                                        <i class="material-icons prefix">date_range</i>
-                                                        <input id="a_datepicker" type="text" class="datepicker">
-                                                        <label for="a_datepicker">Fecha de Nacimiento</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                <div class="col s9">
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">account_circle</i>
+                                        <input id="first_name" type="text" class="validate">
+                                        <label for="first_name">Nombres</label>
+                                    </div>
+
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">account_circle</i>
+                                        <input id="last_name" type="text" class="validate">
+                                        <label for="last_name">Apellidos</label>
+                                    </div>
+
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">date_range</i>
+                                        <input id="a_datepicker" type="text" class="datepicker">
+                                        <label for="a_datepicker">Fecha de Nacimiento</label>
+                                    </div>
+
+                                    <div class="input-field col s6">
+                                        <p> <label>Sexo</label>
+                                            <label>
+                                                <input name="group1" type="radio" />
+                                                <span>F</span>
+                                            </label>
+                                            <label>
+                                                <input name="group1" type="radio" />
+                                                <span>M</span>
+                                            </label>
+                                        </p>
                                     </div>
                                 </div>
 
-                                <div class="row">
-                                    <div class="input-field col s8">
-                                        <i class="material-icons prefix">home</i>
-                                        <input id="direction" type="text" class="validate">
-                                        <label for="direction">Direccion</label>
-                                    </div>
-
-                                    <div class="input-field col s4">
-                                        <i class="material-icons prefix">place</i>
-                                        <select>
-                                            <option value="" disabled selected>El&iacute;ge un Municipio</option>
-                                            <option value="1">Santa Ana</option>
-                                            <option value="2">Candelaria de la Frontera</option>
-                                            <option value="3">Chalchuapa</option>
-                                            <option value="4">Coatepeque</option>
-                                            <option value="5">El Congo</option>
-                                        </select>
-                                        <label>Municipio</label>
-                                    </div>
+                                <div class="input-field col s8">
+                                    <i class="material-icons prefix">home</i>
+                                    <input id="direction" type="text" class="validate">
+                                    <label for="direction">Direccion</label>
                                 </div>
 
-                                <div class="row">
-                                    <div class="input-field col s3">
-                                        <i class="material-icons prefix">email</i>
-                                        <input id="email" type="email" class="validate">
-                                        <label for="email">Email</label>
-                                    </div>
-                                    <div class="input-field col s3">
-                                        <i class="material-icons prefix">local_phone</i>
-                                        <input id="phone" type="text" class="validate">
-                                        <label for="phone">Numero de Telefono</label>
-                                    </div>
-                                    <div class="input-field col s4">
-                                        <i class="material-icons prefix">school</i>
-                                        <select>
-                                            <option value="" disabled selected>El&iacute;ge un Centro Escolar</option>
-                                            <option value="1">Centro Escolar INSA</option>
-                                            <option value="2">Colegio San Jos&eacute;</option>
-                                            <option value="3">Colegio Maria Auxiliadora</option>
-                                            <option value="4">Colegio Las Mercedes</option>
-                                            <option value="5">Centro Excolar Santa Maria</option>
-                                        </select>
-                                        <label>Centro Escolar</label>
+                                <div class="input-field col s4">
+                                    <i class="material-icons prefix">place</i>
+                                    <select>
+                                        <option value="" disabled selected>El&iacute;ge un Municipio</option>
+                                        <option value="1">Santa Ana</option>
+                                        <option value="2">Candelaria de la Frontera</option>
+                                        <option value="3">Chalchuapa</option>
+                                        <option value="4">Coatepeque</option>
+                                        <option value="5">El Congo</option>
+                                    </select>
+                                    <label>Municipio</label>
+                                </div>
 
-                                    </div>
 
-                                    <!-- Agregar Centro Escolar -->
-                                    <div class="input-field col s2">
-                                        <a class="waves-effect waves-light btn modal-trigger" href="new/addSchool.php"
-                                            data-target="AddSchool">
-                                            <i class="material-icons">add_circle</i></a>
 
-                                        <?php require 'new/addSchool.php'; ?>
-                                    </div>
+                                <div class="input-field col s3">
+                                    <i class="material-icons prefix">email</i>
+                                    <input id="email" type="email" class="validate">
+                                    <label for="email">Email</label>
+                                </div>
+                                <div class="input-field col s3">
+                                    <i class="material-icons prefix">local_phone</i>
+                                    <input id="phone" type="text" class="validate">
+                                    <label for="phone">Numero de Telefono</label>
+                                </div>
+
+                                <div class="input-field col s4">
+                                    <i class="material-icons prefix">school</i>
+                                    <select>
+                                        <option value="" disabled selected>El&iacute;ge un Centro Escolar</option>
+                                        <option value="1">Centro Escolar INSA</option>
+                                        <option value="2">Colegio San Jos&eacute;</option>
+                                        <option value="3">Colegio Maria Auxiliadora</option>
+                                        <option value="4">Colegio Las Mercedes</option>
+                                        <option value="5">Centro Excolar Santa Maria</option>
+                                    </select>
+                                    <label>Centro Escolar</label>
 
                                 </div>
+                                <!-- Agregar Centro Escolar -->
+                                <div class="input-field col s2">
+                                    <a class="waves-effect waves-light btn modal-trigger" href="new/addSchool.php"
+                                        data-target="AddSchool">
+                                        <i class="material-icons">add_circle</i></a>
+
+                                    <?php require 'new/addSchool.php'; ?>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
