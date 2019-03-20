@@ -11,7 +11,7 @@
     <?php require 'menu.php'; ?>
 
     <main>
-        <div class="container">
+        <div class="container" style="width: 90%;">
             <!--encabezado-->
             <header>
                 <h4>Detalle de Alumnos</h4>

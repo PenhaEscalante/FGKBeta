@@ -87,7 +87,7 @@
                                 </p>
                             </div>
 
-                            <div class="input-field col s12">
+                            <div class="input-field col s4">
                                 <i class="material-icons prefix">date_range</i>
                                 <input id="a_datepicker" type="text" class="datepicker">
                                 <label for="a_datepicker">Fecha de Nacimiento</label>
@@ -105,13 +105,14 @@
                                 <label for="lblNIT">NIT</label>
                             </div>
 
-                            <div class="input-field col s3">
+                            <div class="input-field col s4">
                                 <i class="material-icons prefix">payment</i>
                                 <input name="txtCarnet" value="" id="lblCarnet" type="text" class="validate">
                                 <label for="lblCarnet">Carnet</label>
                             </div>
 
                             <div class="input-field col s4">
+                                <i class="material-icons prefix">local_mall</i>
                                 <select>
                                     <option value="" disabled selected>Seleccione Cargo</option>
                                     <option value="1">Docente</option>
@@ -122,11 +123,13 @@
                             </div>
 
                             <div class="input-field col s4">
+                                <i class="material-icons prefix">phone</i>
                                 <input name="txtTelefono" id="lblTelefono" type="text" class="validate">
                                 <label for="lblTelefono">Telefono</label>
                             </div>
 
                             <div class="input-field col s4">
+                                <i class="material-icons prefix">place</i>
                                 <select>
                                     <option value="" disabled selected>Seleccione Municipio</option>
                                     <option value="1">Ahuachapan</option>
@@ -136,12 +139,14 @@
                                 <label>Municipio</label>
                             </div>
 
-                            <div class="input-field col s12">
+                            <div class="input-field col s8">
+                                <i class="material-icons prefix">home</i>
                                 <input name="txtDireccion" value="" id="lblDireccion" type="text" class="validate">
                                 <label for="lblDireccion">Direccion</label>
                             </div>
 
                             <div class="input-field col s12">
+                                <i class="material-icons prefix">insert_comment</i>
                                 <textarea name="txtDescripcion" id="lblDescripcion"
                                     class="materialize-textarea"></textarea>
                                 <label for="lblDescripcion">Descripcion</label>

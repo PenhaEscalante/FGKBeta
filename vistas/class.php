@@ -59,7 +59,7 @@
                         <h4>Agregar Class</h4>
                         <div class="row">
                             <div class="input-field col s12">
-                                <i class="material-icons prefix">mode_edit</i>
+                                <i class="material-icons prefix">class</i>
                                 <input name="txtClass" value="" id="lblClass" type="text" class="validate">
                                 <label for="lblClass">Class</label>
                             </div>
